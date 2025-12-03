@@ -1,3 +1,4 @@
+Leck
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
 const { DisTube } = require("distube");
 const { SpotifyPlugin } = require("@distube/spotify");
@@ -259,3 +260,4 @@ client.on("messageCreate", async (message) => {
 
 // ==== Login ====
 client.login(config.token);
+
